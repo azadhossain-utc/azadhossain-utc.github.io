@@ -1,0 +1,87 @@
+
+@import url('https://fonts.googleapis.com/css?family=Roboto|Open+Sans&display=swap');
+
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+a.teaching {
+	color: black;
+	text-decoration: none;
+	background-color: rgb(177,207,148);
+}
+
+a.research {
+	color: black;
+	text-decoration: none;
+	background-color: rgb(75,175,234);
+}
+
+a.outreach {
+	color: black;
+	text-decoration: none;
+	background-color: rgb(250,217,120);
+}
+
+a.service {
+	color: black;
+	text-decoration: none;
+	background-color: rgb(235,179,138);
+}
+
+a.students {
+	color: black;
+	text-decoration: none;
+	background-color: rgb(147,170,216);
+}
+
+a.lab {
+	color: black;
+	text-decoration: none;
+	background-color: rgb(191,191,191);
+}
+
+a:link, a:visited {
+	padding: 4px;
+	border-radius: 10px;
+}
+
+#links {
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 15px;
+	max-width: 100%;
+	margin: auto;
+	font-size: 2.5vw;
+}
+
+img {
+	border-radius: 10px;
+}
+
+img.banner {
+	border-radius: 0px;
+	max-width: 100%;
+	margin: auto;
+}
+
+img.profilepic {
+	float: left;
+	max-width: 24%;
+	max-height: 100%;
+	margin: auto;
+}
+
+img.leaves {
+	float: right;
+	max-width: 24%;
+	max-height: 100%;
+	margin: auto;
+}
+
+div.bio {
+	float: left;
+	padding: 5px;
+	max-width: 50%;
+	text-align: center;
+	font-size: 2.2vw;
+}
