@@ -45,13 +45,17 @@ a:link, a:visited {
 	border-radius: 10px;
 }
 
+a:hover {
+	filter: brightness(115%);
+}
+
 #links {
 	text-align: center;
 	padding-top: 10px;
 	padding-bottom: 15px;
 	max-width: 100%;
 	margin: auto;
-	font-size: 2.5vw;
+	font-size: 2.3vw;
 }
 
 img {
@@ -66,21 +70,21 @@ img.banner {
 
 img.profilepic {
 	float: left;
-	max-width: 24%;
+	max-width: 25%;
 	max-height: 100%;
 	margin: auto;
 }
 
 img.leaves {
 	float: right;
-	max-width: 24%;
+	max-width: 25%;
 	max-height: 100%;
 	margin: auto;
 }
 
 div.bio {
 	float: left;
-	padding: 5px;
+	margin: auto;
 	max-width: 50%;
 	text-align: center;
 	font-size: 2.2vw;
