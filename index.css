@@ -1,48 +1,39 @@
 
-@import url('https://fonts.googleapis.com/css?family=Roboto|Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto|Open+Sans|Roboto+Mono&display=swap');
 
 body {
 	font-family: 'Open Sans', sans-serif;
 }
+
+a.home {
+	background-color: rgb(250,128,114);
+}
+
 a.teaching {
-	color: black;
-	text-decoration: none;
 	background-color: rgb(177,207,148);
 }
 
 a.research {
-	color: black;
-	text-decoration: none;
 	background-color: rgb(75,175,234);
 }
 
-a.outreach {
-	color: black;
-	text-decoration: none;
-	background-color: rgb(250,217,120);
-}
-
 a.service {
-	color: black;
-	text-decoration: none;
 	background-color: rgb(235,179,138);
 }
 
 a.students {
-	color: black;
-	text-decoration: none;
 	background-color: rgb(147,170,216);
 }
 
 a.lab {
-	color: black;
-	text-decoration: none;
-	background-color: rgb(191,191,191);
+	background-color: rgb(250,217,120);
 }
 
 a:link, a:visited {
+	color: black;
+	text-decoration: none;
 	padding: 4px;
-	border-radius: 10px;
+	border-radius: 7px;
 }
 
 a:hover {
@@ -55,7 +46,7 @@ a:hover {
 	padding-bottom: 15px;
 	max-width: 100%;
 	margin: auto;
-	font-size: 2.3vw;
+	font-size: 2.1vw;
 }
 
 img {
@@ -80,6 +71,12 @@ img.leaves {
 	max-width: 25%;
 	max-height: 100%;
 	margin: auto;
+}
+
+img.colors {
+	display: block;
+	margin: auto;
+	width: 20%;
 }
 
 div.bio {
