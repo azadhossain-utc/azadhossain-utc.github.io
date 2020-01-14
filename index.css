@@ -51,6 +51,7 @@ a:hover {
 
 img {
 	border-radius: 10px;
+	image-orientation: from-image;
 }
 
 img.banner {
@@ -66,10 +67,9 @@ img.profilepic {
 	margin: auto;
 }
 
-img.leaves {
+#carousel {
 	float: right;
 	max-width: 25%;
-	max-height: 100%;
 	margin: auto;
 }
 
